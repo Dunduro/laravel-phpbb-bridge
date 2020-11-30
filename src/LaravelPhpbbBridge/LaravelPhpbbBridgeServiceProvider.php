@@ -1,6 +1,6 @@
 <?php
 
-namespace Tohtamysh\LaravelPhpbbBridge;
+namespace Dunduro\LaravelPhpbbBridge;
 
 use Illuminate\Support\ServiceProvider;
 use Route;
