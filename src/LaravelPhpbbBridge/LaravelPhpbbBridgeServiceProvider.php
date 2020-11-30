@@ -24,9 +24,9 @@ class LaravelPhpbbBridgeServiceProvider extends ServiceProvider
         ], 'config');
 
         Route::group(['middleware' => ['web']], function () {
-            Route::get('/auth-bridge/login', 'Tohtamysh\LaravelPhpbbBridge\Controllers\ApiController@getSession');
-            Route::post('/auth-bridge/login', 'Tohtamysh\LaravelPhpbbBridge\Controllers\ApiController@doLogin');
-            Route::delete('/auth-bridge/login', 'Tohtamysh\LaravelPhpbbBridge\Controllers\ApiController@doLogout');
+            Route::get('/auth-bridge/login', 'Dunduro\LaravelPhpbbBridge\Controllers\ApiController@getSession');
+            Route::post('/auth-bridge/login', 'Dunduro\LaravelPhpbbBridge\Controllers\ApiController@doLogin');
+            Route::delete('/auth-bridge/login', 'Dunduro\LaravelPhpbbBridge\Controllers\ApiController@doLogout');
         });
     }
 
