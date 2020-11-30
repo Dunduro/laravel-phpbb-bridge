@@ -1,6 +1,6 @@
 {
-  "name": "tohtamysh/laravel-phpbb-bridge",
-  "description": "Authentication module for Laravel 5.4 and phpBB 3.2",
+  "name": "dunduro/laravel-phpbb-bridge",
+  "description": "Authentication module for Laravel 7and phpBB 3.3",
   "keywords": [
     "phpbb",
     "phpbb3",
@@ -14,8 +14,8 @@
       "email": "tohtamysh@gmail.com"
     },
     {
-      "name": "Tohtamysh",
-      "email": "tohtamysh@gmail.com"
+      "name": "Dunduro",
+      "email": "elmar.van.wijnen@gmail.com"
     }
   ],
   "require": {
