@@ -5,8 +5,8 @@ namespace {
         exit;
     }
 
-    define('LARAVEL_URL', 'http://exemple.com');
-    define('BRIDGEBB_API_KEY', 'yoursecretapikey'); // Api key
+    define('LARAVEL_URL', 'http://qos');
+    define('BRIDGEBB_API_KEY', 'pizza'); // Api key
 
     // User properties from laravel as key and phpBB as value
     define ('LARAVEL_CUSTOM_USER_DATA', serialize ([
